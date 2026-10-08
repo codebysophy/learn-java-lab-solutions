@@ -8,6 +8,7 @@ A new lecture comes out every Monday and the lab solution follows on Friday.
 | 1 | Virtual Pet Simulator: variables, arithmetic, operator order | [PetSimulator.java](lab-01-pet-simulator/PetSimulator.java) |
 | 2 | Space Fuel Tracker: compound operators, integer division vs. casting | [SpaceFuelTracker.java](lab-02-space-fuel-tracker/SpaceFuelTracker.java) |
 | 3 | Music Fest Merch Inventory: comments, Javadoc, pre/postconditions | [MusicFestMerch.java](lab-03-music-fest-merch/MusicFestMerch.java) |
+| 4 | Space Shuttle Fuel Needed: `Math.abs`, `Math.sqrt`, `Math.pow`, distance formula | [SpaceShuttleFuel.java](lab-04-space-shuttle-fuel/SpaceShuttleFuel.java) |
 
 ## Running a solution
 
