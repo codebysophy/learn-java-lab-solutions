@@ -11,6 +11,7 @@ A new lecture comes out every Monday and the lab solution follows on Friday.
 | 4 | Space Shuttle Fuel Needed: `Math.abs`, `Math.sqrt`, `Math.pow`, distance formula | [SpaceShuttleFuel.java](lab-04-space-shuttle-fuel/SpaceShuttleFuel.java) |
 | 5 | Smoothie Shop Rewards: creating objects, constructors, calling instance methods | [SmoothieShop.java](lab-05-smoothie-shop/SmoothieShop.java) |
 | 6 | Escape Room Code Decoder: `String` methods `indexOf`, `substring`, `compareTo`, `equals` | [EscapeMazeMain.java](lab-06-escape-room/EscapeMazeMain.java) |
+| 7 | Esports Tournament Qualifying: user input with `IO.readln`, `if`/`else`, random numbers in a range | [EsportTournament.java](lab-07-esports-tournament/EsportTournament.java) |
 
 ## Running a solution
 
