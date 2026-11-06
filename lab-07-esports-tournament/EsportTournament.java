@@ -13,13 +13,6 @@
 void main() {
 
     /*
-     * QUALIFYING SCORE
-     * final means this value can't change while the program runs. Naming it
-     * once keeps 700 from being typed in two places.
-     */
-    final int QUALIFYING_POINTS = 700;
-
-    /*
      * INPUT
      * IO.readln prints the prompt and returns what the user types as a
      * String. Points are a whole number, so Integer.parseInt turns the
@@ -37,14 +30,7 @@ void main() {
      *   700 >= 700  -> true
      *   925 >= 700  -> true
      */
-    boolean qualifies = points >= QUALIFYING_POINTS;
-
-    /*
-     * IF STATEMENT (topic 2.3)
-     * Only two outcomes are possible, so one if/else covers every case:
-     * the if block runs when qualifies is true, the else block when false.
-     */
-    if (qualifies) {
+    if (points >= 700) {
 
         /*
          * SEED NUMBER
@@ -60,7 +46,7 @@ void main() {
                 + " points, you qualified for the tournament.");
         IO.println("Your tournament seed number is " + seed + ".");
     } else {
-        int pointsNeeded = QUALIFYING_POINTS - points;
+        int pointsNeeded = 700 - points;
 
         IO.println("Sorry, " + teamName + ". With " + points
                 + " points, you don't qualify yet.");
